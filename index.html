@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #head{
+                background-color:#1d1a5e;
+                height: 30px;
+                text-align: center;
+                padding-top: 12px;
+                
+            }
+            .head-wrapper{
+                color: white;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            .image-render{
+                width:100%;
+                height: 300px;
+            }
+            body{
+                background-color: lightgray;
+            }
+            .column {
+                float: left;
+                width: 23.33%;
+                padding: 5px;
+                background-color:lightgray;
+
+                }
+
+
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+                background-color:lightgray;
+                }
+            #fig{
+                width:300px; text-align: center; background-color: white;
+            }
+            footer{
+                background-color: black;
+                text-align: center;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }    
+        </style>
+    </head>
+    <body>
+        <title>Beautiful Places</title>
+        <article>
+            <header id="head">
+                <a class="head-wrapper" href="/Final_Project (HTML)/index.html" target="_self">TRIPS</a>
+                <a class="head-wrapper" href="/Final_Project (HTML)/about.html" target="_self">ABOUT</a>
+                <a class="head-wrapper" href="/Final_Project (HTML)/contact.html" target="_self">CONTACT</a>
+            </header>
+            <div>
+                <img class="image-render" src="https://thumbs.dreamstime.com/b/beautiful-building-11019270.jpg" alt="head_pic">
+            </div>
+            <div>
+                <h3  style="background-color:lightgray; text-align: center;">My Travel Diary</h3>
+                <div class="row">
+                    <a href ="" class="column">
+                        <img src="https://purewows3.imgix.net/images/articles/2019_04/most-beautiful-places-in-the-world-Seljalandsfoss__Iceland.png?auto=format,compress&cs=strip" alt="Seljalandsfoss, Iceland" style="width:300px">
+                        <figcaption id="fig">Seljalandsfoss, Iceland</figcaption>
+                    </a>
+                    <a href="" class="column">
+                        <img src="https://purewows3.imgix.net/images/articles/2019_04/most-beautiful-places-in-the-world-lake-louise.jpeg?auto=format,compress&cs=strip" alt="Lake Louise, Canada" style="width:300px">
+                        <figcaption id="fig">Lake Louise, Canada</figcaption>
+                    </a>
+                    <a href="" class="column">
+                        <img src="https://purewows3.imgix.net/images/articles/2019_04/most-beautiful-places-in-the-world-antelope-canyon.jpeg?auto=format,compress&cs=strip" alt="Antelope Canyon, Arizona" style="width:300px">
+                        <figcaption id="fig">Antelope Canyon, Arizona</figcaption>
+                    </a>
+                    <a href="" class="column">
+                        <img src="https://purewows3.imgix.net/images/articles/2019_04/most-beautiful-places-in-the-world-grand-prismatic-spring-wyoming.jpeg?auto=format,compress&cs=strip" alt="Grand Prismatic Spring, Wyoming" style="width:300px">
+                        <figcaption id="fig">Grand Prismatic Spring, Wyoming</figcaption>
+                    </a>
+                </div> 
+            </div> 
+        </article>
+        <footer>
+            <a class="head-wrapper" href="/Final_Project (HTML)/index.html" target="_self">TRIPS</a>
+            <a class="head-wrapper" href="/Final_Project (HTML)/about.html" target="_self">ABOUT</a>
+            <a class="head-wrapper" href="/Final_Project (HTML)/contact.html" target="_self">CONTACT</a>
+        </footer>
+    </body>
+</html>
